@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Weaver</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CDN for pptxgenjs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pptxgenjs/3.12.0/pptxgen.min.js"></script>
+    <!-- CDN for jspdf (uncomment if/when you implement PDF export) -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script> -->
+</head>
+<body>
+    <div class="container">
+        <h1>Slide Weaver</h1>
+        <div class="editor-area">
+            <textarea id="markdownInput" placeholder="Enter Markdown here..."></textarea>
+        </div>
+        <div class="controls">
+            <button id="addSlideBtn">Update Preview</button>
+            <button id="prevSlideBtn">Previous</button>
+            <button id="nextSlideBtn">Next</button>
+            <label for="templateSelect">Template:</label>
+            <select id="templateSelect">
+                <option value="default">Default</option>
+                <!-- Add more template options here -->
+            </select>
+            <button id="exportHtmlBtn">Export to HTML</button>
+            <button id="exportPptxBtn">Export to PPTX</button>
+        </div>
+        <div id="slidePreview">
+            <!-- Slide content will be rendered here -->
+            <p>Slide Preview Area</p>
+        </div>
+    </div>
+    <script src="script.js" type="module"></script>
+</body>
+</html>

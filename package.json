@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "jspdf": "^3.0.1",
+    "node": "^24.0.1",
+    "pptxgenjs": "^4.0.0"
+  },
+  "name": "n2.3",
+  "version": "1.0.0",
+  "description": "Esta es la cuna del N2.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neldo-bot/N2.3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neldo-bot/N2.3/issues"
+  },
+  "homepage": "https://github.com/Neldo-bot/N2.3#readme"
+}
